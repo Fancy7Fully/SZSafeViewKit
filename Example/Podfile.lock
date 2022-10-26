@@ -1,0 +1,16 @@
+PODS:
+  - SZSafeViewKit (0.1.0)
+
+DEPENDENCIES:
+  - SZSafeViewKit (from `../`)
+
+EXTERNAL SOURCES:
+  SZSafeViewKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SZSafeViewKit: eeff331e75bd101b001e3d123191e61762d6b73d
+
+PODFILE CHECKSUM: 62a11c4e1317ef6141c77e54bba47e1d9e1dfbbb
+
+COCOAPODS: 1.11.3

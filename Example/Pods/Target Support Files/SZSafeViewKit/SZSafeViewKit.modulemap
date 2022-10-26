@@ -1,0 +1,6 @@
+framework module SZSafeViewKit {
+  umbrella header "SZSafeViewKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

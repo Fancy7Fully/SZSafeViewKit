@@ -1,0 +1,22 @@
+{
+  "name": "SZSafeViewKit",
+  "version": "0.1.0",
+  "summary": "A short description of SZSafeViewKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Fancy7Fully/SZSafeViewKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Fancy7Fully": "zhou.zhiyuan.stephen@hotmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Fancy7Fully/SZSafeViewKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "SZSafeViewKit/Classes/**/*"
+}
