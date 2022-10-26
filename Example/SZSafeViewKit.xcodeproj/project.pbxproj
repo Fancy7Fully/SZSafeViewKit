@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		11C953FF29FE3BB672827976 /* SZSafeViewKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SZSafeViewKit.podspec; path = ../SZSafeViewKit.podspec; sourceTree = "<group>"; };
+		11C953FF29FE3BB672827976 /* SZSafeViewKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SZSafeViewKit.podspec; path = ../SZSafeViewKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		49A8966BE97FAE64E0116B6B /* Pods_SZSafeViewKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SZSafeViewKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		55EE485FDED93EA0CF6D64C3 /* Pods-SZSafeViewKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SZSafeViewKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-SZSafeViewKit_Tests/Pods-SZSafeViewKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SZSafeViewKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SZSafeViewKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,9 +41,9 @@
 		607FACE51AFB9204008FA782 /* SZSafeViewKit_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SZSafeViewKit_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		97280A7C66C6AD75C5917E5B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		97280A7C66C6AD75C5917E5B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		ABB8F6DD843CE8C1B915DE3E /* Pods-SZSafeViewKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SZSafeViewKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-SZSafeViewKit_Example/Pods-SZSafeViewKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B6764D33D7CA5380998D48E4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B6764D33D7CA5380998D48E4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E4E587633DC224546E852061 /* Pods_SZSafeViewKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SZSafeViewKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5D488A3519C7BD5E2D1148C /* Pods-SZSafeViewKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SZSafeViewKit_Example.release.xcconfig"; path = "Target Support Files/Pods-SZSafeViewKit_Example/Pods-SZSafeViewKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		FFC60AE56F345C23952EB449 /* Pods-SZSafeViewKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SZSafeViewKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SZSafeViewKit_Tests/Pods-SZSafeViewKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -77,7 +77,6 @@
 				FFC60AE56F345C23952EB449 /* Pods-SZSafeViewKit_Tests.debug.xcconfig */,
 				55EE485FDED93EA0CF6D64C3 /* Pods-SZSafeViewKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -479,6 +479,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SZSafeViewKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -494,6 +495,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SZSafeViewKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
