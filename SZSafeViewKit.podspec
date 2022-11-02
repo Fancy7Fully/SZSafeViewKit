@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.swift_version    = '5.0'
   s.description      = <<-DESC
   A library with simple UIView wrapper against screenshot and screen record.
-  Specifically, it provides a UITextField wrapper around UIView and the wrapper works like passwork, therefore protecting the view it wrapps.
+  Specifically, it provides a UITextField wrapper around UIView and the wrapper works like password, therefore protecting the view it wrapps.
                           DESC
 
   s.homepage         = 'https://github.com/Fancy7Fully/SZSafeViewKit'
