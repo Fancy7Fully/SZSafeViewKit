@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'SZSafeViewKit'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of SZSafeViewKit.'
+  s.summary          = 'A library with simple UIView wrapper against screenshot and screen record'
   s.swift_version    = '5.0'
 
 # This description is used to generate tags and improve search results.
@@ -39,6 +39,6 @@ Pod::Spec.new do |s|
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+   s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
