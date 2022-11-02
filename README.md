@@ -20,6 +20,7 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'SZSafeViewKit'
 ```
+And run `pod install` in your repo.
 
 ## Use
 Simply put the view to protect within the container for usage.
@@ -31,7 +32,7 @@ let protectedView = SZSafeViewContainer(content: viewToProtect)
 
 ## Author
 
-Fancy7Fully, zhou.zhiyuan.stephen@hotmail.com
+Stephen Zhou, zhou.zhiyuan.stephen@hotmail.com
 
 ## License
 
