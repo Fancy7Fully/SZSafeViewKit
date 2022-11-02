@@ -10,6 +10,7 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+Work on iOS 13 and above
 
 ## Installation
 
@@ -18,6 +19,14 @@ it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'SZSafeViewKit'
+```
+
+## Use
+Simply put the view to protect within the container for usage.
+```
+let viewToProtect = UIView()
+let protectedView = SZSafeViewContainer(content: viewToProtect)
+// Then use protectedView
 ```
 
 ## Author

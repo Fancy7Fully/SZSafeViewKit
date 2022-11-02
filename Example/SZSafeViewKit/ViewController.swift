@@ -10,13 +10,8 @@ import UIKit
 import SZSafeViewKit
 
 class ViewController: UIViewController {
-
-  var safeView: UIView = UIView()
-  
-  var unsafeView: UITextView = UITextView()
   
   let stackView = UIStackView()
-  
   let imageViewButton = UIButton()
   let labelButton = UIButton()
   let textViewButton = UIButton()
@@ -30,30 +25,10 @@ class ViewController: UIViewController {
   }
 
   private func setupUI() {
-    let v = UITextView()
-    v.backgroundColor = .green
-    v.textColor = .black
-    v.text = "This is safe view"
-    v.isUserInteractionEnabled = false
-    v.isScrollEnabled = false
-    v.setContentHuggingPriority(UILayoutPriority(1.0), for: .horizontal)
-    
-    safeView = SZSafeViewContainer(content: v)
-    
-    unsafeView = UITextView()
-    unsafeView.backgroundColor = .gray
-    unsafeView.textColor = .black
-    unsafeView.text = "This is unsafe view"
-    unsafeView.isUserInteractionEnabled = false
-    unsafeView.isScrollEnabled = false
-    unsafeView.setContentHuggingPriority(UILayoutPriority(1.0), for: .horizontal)
-    
     stackView.axis = .vertical
     stackView.spacing = 2.0
     stackView.distribution = .fillEqually
     stackView.alignment = .center
-    stackView.addArrangedSubview(safeView)
-    stackView.addArrangedSubview(unsafeView)
     stackView.addArrangedSubview(imageViewButton)
     stackView.addArrangedSubview(labelButton)
     stackView.addArrangedSubview(textViewButton)
@@ -110,6 +85,16 @@ class ViewController: UIViewController {
     v.isUserInteractionEnabled = false
     v.isScrollEnabled = false
     v.setContentHuggingPriority(UILayoutPriority(1.0), for: .horizontal)
+    
+    var unsafeView: UITextView = UITextView()
+    unsafeView = UITextView()
+    unsafeView.backgroundColor = .gray
+    unsafeView.textColor = .black
+    unsafeView.text = "This is unsafe view"
+    unsafeView.isUserInteractionEnabled = false
+    unsafeView.isScrollEnabled = false
+    unsafeView.setContentHuggingPriority(UILayoutPriority(1.0), for: .horizontal)
+    
     let vc = ExampleViewController(contentView: v, comparisonView: unsafeView)
     navigationController?.pushViewController(vc, animated: true)
   }
