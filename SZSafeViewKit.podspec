@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SZSafeViewKit'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A library with simple UIView wrapper against screenshot and screen record'
   s.swift_version    = '5.0'
   s.description      = <<-DESC

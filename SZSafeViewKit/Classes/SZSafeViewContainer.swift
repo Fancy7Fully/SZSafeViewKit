@@ -19,9 +19,7 @@ public class SZSafeViewContainer<Content: UIView>: UITextField {
   public init(content: Content) {
     self.content = content
     self.size = content.intrinsicContentSize
-    
     super.init(frame: .zero)
-    
     setupUI()
   }
   
