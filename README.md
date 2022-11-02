@@ -5,6 +5,9 @@
 [![License](https://img.shields.io/cocoapods/l/SZSafeViewKit.svg?style=flat)](https://cocoapods.org/pods/SZSafeViewKit)
 [![Platform](https://img.shields.io/cocoapods/p/SZSafeViewKit.svg?style=flat)](https://cocoapods.org/pods/SZSafeViewKit)
 
+  A library with simple UIView wrapper against screenshot and screen record.
+  Specifically, it provides a UITextField wrapper around UIView and the wrapper works like passwork, therefore protecting the view it wrapps.
+  
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
