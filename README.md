@@ -9,6 +9,7 @@
   Specifically, it provides a UITextField wrapper around UIView and the wrapper works like password, therefore protecting the view it wrapps.
   
 ## Example
+![alt text](https://github.com/Fancy7Fully/SZSafeViewKit/blob/main/example.png)
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
