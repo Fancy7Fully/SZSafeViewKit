@@ -10,6 +10,7 @@ Pod::Spec.new do |s|
   s.name             = 'SZSafeViewKit'
   s.version          = '0.1.0'
   s.summary          = 'A short description of SZSafeViewKit.'
+  s.swift_version    = '5.0'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,8 +19,9 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  A library with simple UIView wrapper against screenshot and screen record.
+  Specifically, it provides a UITextField wrapper around UIView and the wrapper works like passwork, therefore protecting the view it wrapps.
+                          DESC
 
   s.homepage         = 'https://github.com/Fancy7Fully/SZSafeViewKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
