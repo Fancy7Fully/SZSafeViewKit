@@ -9,7 +9,6 @@
   Specifically, it provides a UITextField wrapper around UIView and the wrapper works like password, therefore protecting the view it wrapps.
   
 ## Example
-
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
