@@ -45,6 +45,7 @@ public class SZSafeViewContainer<Content: UIView>: UITextField {
     self.isSecureTextEntry = true
     self.isUserInteractionEnabled = false
     container.isUserInteractionEnabled = false
+    
     self.setContentHuggingPriority(content.contentHuggingPriority(for: .horizontal), for: .horizontal)
     self.setContentHuggingPriority(content.contentHuggingPriority(for: .vertical), for: .vertical)
     self.setContentCompressionResistancePriority(content.contentCompressionResistancePriority(for: .horizontal), for: .horizontal)
